@@ -59,6 +59,10 @@ p {
 #navbar-home { 
 	position: fixed;
 	z-index: 20;
+	background-color: rgba(112, 128, 144, 0.8);
+	padding: 15px 10px 15px 20px;
+	margin-top: 0;
+	border-radius: 0px 0px 15px 0px;
 }
 
 #showcase li, #showcase a {
@@ -72,19 +76,6 @@ p {
  	list-style: none;
 	text-decoration: none;
 	text-transform: none;
-}
-
-#showcase li a:hover {
-	color: gray;
-	font-family: 'Times New Roman', Times, serif;
-	font-style: italic;
-    background: linear-gradient(90deg, #000000, #707070, #000000 15%);
-    background-size: 500% 500%;
-	-webkit-background-clip: text;
-	background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-transform: uppercase;
-	letter-spacing: .2em;
 }
 
 #showcase .bg-image {
@@ -112,23 +103,15 @@ p {
 /*Portfolio Header*/
 
 #nav-bar {
-	min-height: 0px;
-	font-family: serif;
 	font-size: 22px;
-	font-weight: lighter;
-	letter-spacing: .2em;
-	word-spacing: .3em;
- 	list-style: none;
 	text-decoration: none;
-	text-transform: none;
 	color: white;
-	text-align: center;
+	text-align: left;
 }
 
 #nav-bar li, #nav-bar a {
 	font-family: serif;
 	font-weight: lighter;
-	display: inline;
  	color: white;
  	list-style: none;
 	text-decoration: none;
@@ -137,14 +120,11 @@ p {
 #nav-bar a:hover {
 	color: gray;
 	font-family: 'Times New Roman', Times, serif;
-	font-style: italic;
-	background: linear-gradient(90deg, #ffffff, green, #ffffff 15%);
+	background: linear-gradient(90deg, slategrey, green, #ffffff 15%);
 	background-size: 400% 400%;
 	-webkit-background-clip: text;
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
-	text-transform: uppercase;
-	letter-spacing: .2em;
 }
 
 /*Section-A*/
@@ -240,7 +220,6 @@ p {
 .email {
 	color: gray;
 	font-family: 'Times New Roman', Times, serif;
-	font-style: italic;
 	background: linear-gradient(90deg, #000, green, #ffffff 15%);
 	background-size: 400% 400%;
 	-webkit-background-clip: text;
@@ -320,19 +299,6 @@ p {
 		list-style: none;
 		text-decoration: none;
 	}
-
-	#showcase li a:hover {
-		color: gray;
-		font-family: 'Times New Roman', Times, serif;
-		font-style: italic;
-		background: linear-gradient(90deg, #ffffff, #707070, #ffffff 15%);
-		background-size: 500% 500%;
-		-webkit-background-clip: text;
-		background-clip: text;
-		-webkit-text-fill-color: transparent;
-		text-transform: uppercase;
-		letter-spacing: .2em;
-	}
 	
 	#section-a .content-text p {
 		padding-top: 0;
@@ -372,15 +338,11 @@ p {
 
 	#showcase li a:hover {
 		color: gray;
-		font-family: 'Times New Roman', Times, serif;
-		font-style: italic;
 		background: linear-gradient(90deg, #000, green, #ffffff 15%);
 		background-size: 400% 400%;
 		-webkit-background-clip: text;
 		background-clip: text;
 		-webkit-text-fill-color: transparent;
-		text-transform: uppercase;
-		letter-spacing: .2em;
 	}
 	
 }
