@@ -153,17 +153,26 @@ p {
 	background: black;
 	color: white;
 	padding-bottom: 2em;
+	display: block;
+}
+
+#flex-content {
+	display: flex;
+	justify-content: center;
 }
 
 #section-a img {
 	width: 400px;
-	height: 600px;;
+	height: 600px;
+	position: relative;
+	left: 100px;
 }
 
 #section-a .content-text {
 	position: relative;
-	top: 50%;
-	right: 90%;
+	right: 100px;
+	width: 400px;
+	padding-top: 190px;
 	font-family: serif;
 	font-size: 17px;
 	font-weight: lighter;
@@ -325,13 +334,6 @@ p {
 		letter-spacing: .2em;
 	}
 	
-	#section-a .content-text {
-		position: relative;
-		right: 900px;
-		columns: 1;
-		column-gap: 2em;
-	}
-	
 	#section-a .content-text p {
 		padding-top: 0;
 	}
@@ -381,9 +383,4 @@ p {
 		letter-spacing: .2em;
 	}
 	
-	#section-a p {
-	position: relative;
-	right: 90%;
-	left: 90%;
-	}
 }
