@@ -89,7 +89,7 @@ p {
 
 #showcase .bg-image {
 	position: absolute;
-	background: black url("/img/banner.png");
+	background: black url("/img/Banner.png");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
