@@ -58,6 +58,7 @@ p {
 
 #navbar-home { 
 	position: fixed;
+	z-index: 20;
 }
 
 #showcase li, #showcase a {
@@ -79,7 +80,8 @@ p {
 	font-style: italic;
     background: linear-gradient(90deg, #000000, #707070, #000000 15%);
     background-size: 500% 500%;
-    -webkit-background-clip: text;
+	-webkit-background-clip: text;
+	background-clip: text;
     -webkit-text-fill-color: transparent;
     text-transform: uppercase;
 	letter-spacing: .2em;
