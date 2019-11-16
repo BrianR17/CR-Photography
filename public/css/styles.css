@@ -141,6 +141,7 @@ p {
 	background: linear-gradient(90deg, #ffffff, green, #ffffff 15%);
 	background-size: 400% 400%;
 	-webkit-background-clip: text;
+	background-clip: text;
 	-webkit-text-fill-color: transparent;
 	text-transform: uppercase;
 	letter-spacing: .2em;
@@ -234,6 +235,7 @@ p {
 	background: linear-gradient(90deg, #000, green, #ffffff 15%);
 	background-size: 400% 400%;
 	-webkit-background-clip: text;
+	background-clip: text;
 	-webkit-text-fill-color: transparent;
 	text-transform: uppercase;
 	letter-spacing: .1em;
@@ -317,6 +319,7 @@ p {
 		background: linear-gradient(90deg, #ffffff, #707070, #ffffff 15%);
 		background-size: 500% 500%;
 		-webkit-background-clip: text;
+		background-clip: text;
 		-webkit-text-fill-color: transparent;
 		text-transform: uppercase;
 		letter-spacing: .2em;
@@ -372,6 +375,7 @@ p {
 		background: linear-gradient(90deg, #000, green, #ffffff 15%);
 		background-size: 400% 400%;
 		-webkit-background-clip: text;
+		background-clip: text;
 		-webkit-text-fill-color: transparent;
 		text-transform: uppercase;
 		letter-spacing: .2em;
@@ -379,7 +383,7 @@ p {
 	
 	#section-a p {
 	position: relative;
-	right: %;
+	right: 90%;
 	left: 90%;
 	}
 }
